@@ -1,0 +1,74 @@
+body {
+    background-color: #222;
+    font-family: 'Merriweather';
+    margin: 0 0 0 0;
+}
+
+p, h1, h3 {
+    margin: 0 0 0 0;
+}
+
+
+/* Toolbar */
+#toolbar-container {
+    color: white;
+    display: block;
+    margin-top: 0px;
+    text-align: center;
+    height: 5%;
+}
+
+#toolbar-container button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    background: none;
+}
+
+#toolbar-container button:hover {
+    background-color: gray;
+}
+
+/* Home */
+#home-container {
+    text-align: center;
+    color: white;
+    height: 95%;
+    width: 100%;
+    position: relative;
+}
+
+#home-text {
+    margin-top: 15%;
+}
+
+#home-text h1{
+    font-size: 72px;
+}
+
+#home-text h3{
+    font-size: 30px;
+}
+
+/* About */
+#about-container {
+    width: 100%;
+    color: gray;
+    text-align: center;
+    background-color: #1b1b1b;
+    margin: 0 auto 0 auto;
+}
+
+#about-container img {
+    height: 20%;
+    width: auto;
+    background-color: darkgrey;
+    margin: 5 5 5 5;
+}
