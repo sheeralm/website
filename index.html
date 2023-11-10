@@ -4,34 +4,57 @@
   <title>Liam Sheerajin</title>
   <link rel="stylesheet" href="css/style.css">
   <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
   <!-- TOOLBAR START -->
-  <div id="toolbar-container">
-    <button type="button">Home</button> 
-    <button type="button">About</button> 
-    <button type="button">Resume</button> 
-    <button type="button">Projects</button>
-    <hr>
+  <div id="toolbar-wrapper">
+    <ul id="toolbar-buttons">
+      <li>Home</li>
+      <li>About</li>
+      <li>Projects</li>
+      <li>Resume</li>
+    </ul>
+    <div id="toolbar-line">
+      <hr>
+    </div>
   </div>
   <!-- TOOLBAR END -->
   <!-- HOME START -->
-  <div id="home-container">
+  <div id="home-wrapper">
     <div id="home-text">
       <h1>Liam Sheerajin</h1>
       <h3>Software Engineer</h3>
+      <ul id="socials">
+        <li>
+          <a href="https://github.com/sheeralm">
+            <i class="fa fa-github-square"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/liam-sheerajin-3b4065171/">
+            <i class="fa fa-linkedin-square"></i>
+          </a>
+        </li>
+        <li>
+          <a href="mailto:liamsheerajin@gmail.com">
+            <i class="fa fa-envelope-square"></i>
+          </a>
+        </li>
+      </ul>
     </div>
   </div>
   <!-- HOME END -->
   <!-- ABOUT START -->
-  <div id="about-container">
+  <div id="about-wrapper">
     <img src="selfie.jpg" alt="Me!">
     <p>Liam Sheerajin</p>
     <p>Software Engineer
     </p>
   </div>
   <!-- ABOUT END -->
+  <script src="js/home-background.js"></script>
 </body>
 
 </html>
