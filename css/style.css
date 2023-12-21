@@ -281,7 +281,7 @@ img {
 }
 
 #resume-button a:hover {
-    color: rgb(122, 63, 63);
+    color: rgb(134, 25, 25);
     cursor: pointer;
     transition: .3s;
 }
@@ -321,8 +321,11 @@ img {
     background-color: #161616;
     margin: 0 auto 0 auto;
     width: 100%;
-    height: 100%;
     display: inline-block;
+}
+
+#contact-wrapper h3 {
+    margin-top: 15px;
 }
 
 #contact-wrapper #social-buttons {
@@ -333,4 +336,5 @@ img {
     height: auto;
     width: auto;
     margin-left: 17px;
+    margin-bottom: 15px;
 }
