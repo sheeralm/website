@@ -6,7 +6,10 @@
   <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
   <link rel="icon" href="MyDesk.svg">
+  <script>
+  </script>
 </head>
 
 <body>
@@ -16,7 +19,6 @@
       <li id="home"><a href="#home-wrapper">Home</a></li>
       <li id="about"><a href="#about-wrapper">About</a></li>
       <li id="projects"><a href="#projects-wrapper">Projects</a></li>
-      <li id="resume"><a href="#resume-wrapper">Resume</a></li>
       <li id="contact"><a href="#contact-wrapper">Contact</a></li>
     </ul>
     <div id="toolbar-line">
@@ -113,19 +115,51 @@
     <!-- HOME END -->
     <!-- ABOUT START -->
     <section id="about-wrapper">
-      <h3>About</h3>
-      <h1>Let me introduce myself.</h1>
       <div id="info-wrapper">
-        <img src="selfie.jpg" alt="Me!">
-        <p>
-          I am a Software Developer graduating from the University of Cincinnati in December 2023.
-          I have 1.5 years of experience in research & development as well as another 0.5 years of
-          experience working on a large CAD application. I'm seeking employment in web
-          development, but I'm open to discussing any opportunity.
-          <br><br>
-          Aside from the industry, I am passionate about bouldering, movies, gaming, guitar and the outdoors.
-          I love spending my free time exploring hobbies and trying new things.
-        </p>
+        <div class="info-block">
+          <h3>About Me</h3>
+          <!-- <h1>Let me introduce myself.</h1> -->
+          <div id="about-me-wrapper">
+            <img src="selfie.jpg" alt="Me!">
+            <div id="me-wrapper">
+              <p>
+                I gratuated from the University of Cincinnati in December 2023, and am now looking for a job.
+                I am interested in any opportunity, with 2 years of work experience in web development,
+                R&D, and API development. I prefer working in teams, but am used to the challenges of working independently.
+                <br><br>
+                Aside from the industry, I am passionate about bouldering, movies, gaming, guitar and the outdoors.
+                I love spending my free time exploring hobbies and trying new things.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="info-block">
+          <h3>Work Experience</h3>
+          <div id="work-experience-wrapper">
+            <h2>Siemens Internships 1 & 2 - API Development</h2>
+            <div style="height: auto;">
+              <img src="siemens-nx-cad-software.png">
+              <p>
+                Worked on the NXOpen API for the NX CAD software in C++ on a team with 5 other full-time
+                developers. These internships taught me the basics in programming, as I was responsible for cleaning up
+                technical debt and revitalized old processes, as the code base was over a decade old at the time. My work
+                was entirely done in C++.
+              </p>
+              <i class="fa-regular fa-v"></i>
+            </div style="height: auto;">
+            <h2>Siemens Internships 3, 4, & 5 - R&D</h2>
+            <div>
+              <img src="R&D.jpg">
+              <p>
+                Independent project work in a remote environment.
+                Researched and reported on the value and usability of new technologies, such as counterfactuals, AI,
+                natural language processing, and AWS, giving my recommendation on moving forward with a project or
+                declaring it not worth company time. Worked mainly in HTML/CSS/JS and Python
+              </p>
+              <i class="fa-solid fa-v"></i>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
     <!-- ABOUT END -->
@@ -134,14 +168,9 @@
       <h3>Projects</h3>
     </section>
     <!-- PROJECTS END -->
-    <!-- RESUME START -->
-    <section id="resume-wrapper">
-      <h3>Resume</h3>
-    </section>
-    <!-- RESUME END -->
     <!-- CONTACT START -->
     <section id="contact-wrapper">
-      <h3>Contact</h3>
+      <h3>Let's Connect</h3>
       <ul id="social-buttons">
         <li>
           Github<br>
@@ -166,6 +195,8 @@
     <!-- CONTACT END -->
   </article>
   <script src="js/scroll-detection.js"></script>
+  <script src="js/resizer.js"></script>
+  <script src="js/accordion.js"></script>
   <!-- <script src="js/home-background.js"></script> -->
 </body>
 
