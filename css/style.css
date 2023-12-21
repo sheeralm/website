@@ -32,7 +32,7 @@ p {
     text-align: left;
     line-height: 1.75;
     font-size: 18px;
-    color: rgb(194, 194, 194)
+    color: rgb(194, 194, 194);
 }
 
 .scroller {
@@ -236,8 +236,12 @@ svg {
     margin-top: 30px;
 }
 
+#me-wrapper, #work-experience-wrapper div {
+    border: 1px solid;
+}
+
 #work-experience-wrapper div {
-    margin-top: -22px;
+    margin-top: -10px;
 }
 
 #about-me-wrapper, #work-experience-wrapper {
@@ -248,7 +252,7 @@ svg {
 img {
     max-width: 250px;
     border-radius: 30%;
-    border: 2px solid rgb(134, 25, 25);
+    border: 2px solid;
     margin: 10px 0 10px 0;
 }
 

@@ -1,5 +1,6 @@
 $(function () {
     $("#work-experience-wrapper").accordion({
-        heightStyle: "content"
+        heightStyle: "content",
+        animate: 800
     });
 });
