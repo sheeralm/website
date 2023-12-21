@@ -232,9 +232,7 @@ svg {
 }
 
 .ui-accordion-header, #me-wrapper, #work-experience-wrapper div, #work-experience-wrapper, #about-me-wrapper {
-    background-color: #222222;
     padding: 25px 25px 25px 25px;
-    border: 2px solid black;
     margin-top: 30px;
 }
 
