@@ -259,7 +259,7 @@ img {
 }
 
 #social-buttons li a {
-    color: white;
+    color: rgb(194, 194, 194);
     transition: .3s;
     font-size: 60px;
 }
@@ -269,8 +269,9 @@ img {
 }
 
 #resume-button {
-    color: white;
-    font-size: 18px;
+    letter-spacing: 3px;
+    color: rgb(194, 194, 194);
+    font-size: 22px;
     background-color: #222222c0;
     padding: 20px 13px 20px 13px;
     transition: .3s;
