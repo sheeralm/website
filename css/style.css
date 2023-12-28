@@ -114,18 +114,45 @@ p {
     cursor: default;
     padding: 15px 15px 15px 15px;
     backdrop-filter: blur(10px);
-    background-color: #222222c0;
     border-radius: 1%;
 }
 
 #home-text h1 {
     font-size: 68px;
     margin-bottom: 0px;
+    margin-top: 180px;
 }
 
 #home-text h3 {
     text-shadow: 0px 1px 1px rgba(0, 0, 0, .8);
     margin: 0 0 0 0;
+}
+
+#learn-more-button {
+    letter-spacing: 3px;
+    font-size: 22px;
+    margin: 15px 6px 50px 6px;
+    transition: .7s;
+    border-radius: 50px;
+    font-weight: bold;
+    margin-top: auto;
+}
+
+#learn-more-button a {
+    background-color: black;
+    padding: 8px 30px 8px 30px;
+    /* border: 1px solid; */
+    border-radius: 5px;
+    color: rgb(194, 194, 194);
+    border-radius: 50px;
+    transition: .7s;
+}
+
+#learn-more-button a:hover {
+    color: rgb(134, 25, 25);
+    background-color: rgb(194, 194, 194);
+    cursor: pointer;
+    transition: .7s;
 }
 
 /* #screen-saver {
@@ -218,7 +245,6 @@ img {
     margin: 0;
     text-align: left;
     list-style: none;
-    margin-bottom: 10px;
     width: 95%;
 }
 
