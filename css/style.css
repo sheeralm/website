@@ -212,14 +212,18 @@ svg {
     display: inline-block;
 }
 
-#info-wrapper, #me-info-wrapper {
-    display: flex;
-    justify-content: space-around;
-    /* flex-flow: row wrap; */
+#info-wrapper {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+@media only screen and (max-width: 1200px) {
+    #info-wrapper {
+        display: block;
+    }
 }
 
 .info-block {
-    flex: 0 50%;
     margin: 30px;
     height: auto;
 }
@@ -245,12 +249,11 @@ img {
     margin: 0;
     text-align: left;
     list-style: none;
-    width: 95%;
 }
 
 #me-info-wrapper li {
     padding: 14px 0;
-    border-bottom: solid 1px rgba(255, 255, 255, 0.1);
+    border-bottom: solid 1px rgba(194, 194, 194, 0.2);
     color: rgb(194, 194, 194);
 }
 
