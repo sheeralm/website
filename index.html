@@ -18,6 +18,7 @@
     <ul id="toolbar-buttons">
       <li id="home"><a href="#home-wrapper">Home</a></li>
       <li id="about"><a href="#about-wrapper">About</a></li>
+      <li id="experience"><a href="#experience-wrapper">Experience</a></li>
       <li id="projects"><a href="#projects-wrapper">Projects</a></li>
       <li id="contact"><a href="#contact-wrapper">Contact</a></li>
     </ul>
@@ -32,23 +33,6 @@
       <div id="home-text">
         <h1>Liam Sheerajin</h1>
         <h3>Software Engineer</h3>
-        <ul id="social-buttons">
-          <li>
-            <a href="https://github.com/sheeralm" target="_blank">
-              <i class="fa fa-github-square"></i>
-            </a>
-          </li>
-          <li>
-            <a href="mailto:liamsheerajin@gmail.com" target="_blank">
-              <i class="fa fa-envelope-square"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/liam-sheerajin-3b4065171/" target="_blank">
-              <i class="fa fa-linkedin-square"></i>
-            </a>
-          </li>
-        </ul>
       </div>
       <div id="home-svg-wrapper">
         <!-- <div id="screen-saver">
@@ -115,58 +99,76 @@
     <!-- HOME END -->
     <!-- ABOUT START -->
     <section id="about-wrapper">
+      <h3>About Me</h3>
       <div id="info-wrapper">
         <div class="info-block">
-          <h3>About Me</h3>
           <!-- <h1>Let me introduce myself.</h1> -->
           <div id="about-me-wrapper">
             <img src="img/selfie.jpg" alt="Me!">
             <div id="me-wrapper">
               <p>
-                I gratuated from the University of Cincinnati in December 2023 majoring in Computer Science and I am
-                now looking for a job. I am interested in any remote opportunity, with 2 years of work experience across
-                5 internships at Siemens. My roles had me involved in web development, R&D, and API development. I
-                prefer working on teams, but am also used to the challenges of working independently. In my free time, I
-                love bouldering,
-                watching movies, gaming, playing guitar and being outdoors.
+                I gratuated from the University of Cincinnati in December 2023 with a Bachelor of Science in Computer Science and I'm
+                now looking for a job! I'm interested in any remote opportunity, with 2 years of work experience across
+                5 internships at Siemens Digital Industries. My roles had me involved in web development, R&D, and API development with an
+                emphasis on picking up new languages and technologies and quickly acclimating to them. I
+                prefer working on teams, but am also used to the challenges of working independently.
+              </p>
+              <br></br>
+              <p>
+                In my free time, I love bouldering, watching movies, gaming, playing instruments and being outdoors (especially climbing!). I love
+                trying new
+                things and exploring new hobbies. Feel free to reach out to me to chat, I'd love to connect!
               </p>
             </div>
           </div>
         </div>
         <div class="info-block">
-          <h3>Work Experience</h3>
-          <div id="work-experience-wrapper">
-            <h2>Siemens Internships 1 & 2 - API Development</h2>
-            <div>
-              <img src="img/siemens-nx-cad-software.png">
-              <p>
-                Worked on the NXOpen API for the NX CAD software in C++ on a team with 5 other full-time
-                developers. These internships taught me the basics in programming, as I was responsible for cleaning up
-                technical debt and revitalized old processes, as the code base was over a decade old at the time. My
-                work
-                was entirely done in C++.
-              </p>
-              <i class="fa-regular fa-v"></i>
-            </div style="height: auto;">
-            <h2>Siemens Internships 3, 4, & 5 - R&D</h2>
-            <div>
-              <img src="img/R&D.jpg">
-              <p>
-                Independent project work in a remote environment.
-                Researched and reported on the value and usability of new technologies, such as counterfactuals, AI,
-                natural language processing, and AWS, giving my recommendation on moving forward with a project or
-                declaring it not worth company time. Worked mainly in HTML/CSS/JS and Python
-              </p>
-              <i class="fa-solid fa-v"></i>
-            </div>
+          <div id="me-info-wrapper">
+            <ul id="me-info-list">
+              <li>
+                <strong>Name:</strong><span> Liam Sheerajin</span>
+              </li>
+              <li>
+                <strong>School:</strong><span> University of Cincinnati</span>
+              </li>
+              <li>
+                <strong>Age:</strong><span> 23</span>
+              </li>
+              <li>
+                <strong>Hometown: </strong><span> Wyoming, OH</span>
+              </li>
+            </ul>
           </div>
+          <ul id="social-buttons">
+            <li>
+              <a href="https://github.com/sheeralm" target="_blank">
+                <i class="fa fa-github-square"></i>
+              </a>
+            </li>
+            <li>
+              <a href="mailto:liamsheerajin@gmail.com" target="_blank">
+                <i class="fa fa-envelope-square"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/liam-sheerajin-3b4065171/" target="_blank">
+                <i class="fa fa-linkedin-square"></i>
+              </a>
+            </li>
+          </ul>
+          <span id="resume-button">
+            <a id="resume-download-link" target="_blank" href="img/resume_postgrad.pdf"
+              download="Liam Sheerajin Resume">Download Resume</a>
+          </span>
         </div>
       </div>
-      <span id="resume-button">
-        <a id="resume-download-link" target="_blank" href="img/resume_postgrad.pdf" download="Liam Sheerajin Resume">Download Resume</a>
-      </span>
     </section>
     <!-- ABOUT END -->
+    <!-- WORK EXPERIENCE -->
+    <section id="experience-wrapper">
+      <h3>Work Experience</h3>
+    </section>
+    <!-- WORK EXPERIENCE -->
     <!-- PROJECTS START -->
     <section id="projects-wrapper">
       <h3>Projects</h3>
@@ -200,7 +202,7 @@
   </article>
   <script src="js/scroll-detection.js"></script>
   <script src="js/resizer.js"></script>
-  <script src="js/accordion.js"></script>
+  <!-- <script src="js/accordion.js"></script> -->
   <!-- <script src="js/home-background.js"></script> -->
 </body>
 
