@@ -1,8 +1,3 @@
-// $("#theme-switch-button").click(function () {
-//     this.toggleClass('light');
-//     console.log("banana")
-// });
-
 // function to set a given theme/color-scheme
 function setTheme(themeName) {
     localStorage.setItem('theme', themeName);
@@ -20,7 +15,8 @@ function toggleTheme() {
 
 // Immediately invoked function to set the theme on initial load
 (function () {
-    if (localStorage.getItem('theme') === 'theme-dark') {
+    const darkThemeMq = window.matchMedia("(prefers-color-scheme: dark)");
+    if (darkThemeMq.matches) {
         setTheme('theme-dark');
     } else {
         setTheme('theme-light');
