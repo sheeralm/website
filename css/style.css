@@ -540,6 +540,11 @@ svg {
     background-color: var(--lighter-background-color);
 }
 
+#contact-wrapper h2 {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
 #contact-wrapper .social-buttons i {
     padding: 25px 25px 25px 25px;
     font-size: 150px;
