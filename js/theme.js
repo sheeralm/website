@@ -1,3 +1,7 @@
+/**
+ * Sets themes based on browser preferences or previously set theme
+ * Reference: https://stackoverflow.com/questions/69147282/set-color-theme-with-localstorage
+ */
 // function to set a given theme/color-scheme
 function setTheme(themeName) {
     localStorage.setItem('theme', themeName);
