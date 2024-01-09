@@ -78,7 +78,7 @@ p {
 }
 
 #theme-switch-button {
-    z-index: 2;
+    z-index: 3;
     position: absolute;
     top: 11px;
     left: 9px;
@@ -99,7 +99,7 @@ p {
    Toolbar Section
    ========================================================================== */
 #toolbar-wrapper {
-    z-index: 5;
+    z-index: 2;
     display: block;
     position: fixed;
     top: 0;
