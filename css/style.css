@@ -508,6 +508,7 @@ svg {
 .project-overlay span {
     margin: 20px;
     padding: 10px;
+    text-align: center;
     background-color: var(--div-background-color);
     border: solid 1px;
     outline-style: solid;
