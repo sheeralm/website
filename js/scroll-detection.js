@@ -13,7 +13,6 @@ $('article').scroll(function () {
         //  (Above the bottom of the section and below the bottom of the section + the height of the section)
         //  Subtracting because the height value increases as you move from top to bottom. So subtract to check above
         if (sectionBottom > screenBottom && (sectionBottom - $(this).outerHeight()) < screenBottom) {
-            console.log(this.id);
             let newWrapper = $(this).attr("id");
             // Avoids operations and function calls if still within the same section
             if (newWrapper != oldWrapper) {
