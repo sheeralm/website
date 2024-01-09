@@ -545,6 +545,7 @@ svg {
 }
 
 .project-overlay span {
+    display:inline-block;
     margin: 7px;
     padding: 5px;
     font-size: 13px;
