@@ -154,7 +154,8 @@ p {
    ========================================================================== */
 #home-wrapper {
     display: flex;
-    height: 100%;
+    height: auto;
+    min-height: 100%;
     width: 100%;
     background-color: var(--lighter-background-color);
     overflow: hidden;
@@ -190,8 +191,7 @@ svg {
 /* "Learn More" button at bottom of home screen
    ========================================================================== */
 #learn-more-button {
-    margin: 15px 6px 50px 6px;
-    margin-top: auto;
+    margin: auto 6px 50px 6px;
     /* positions button at bottom of screen */
     font-size: 22px;
     font-weight: bold;
@@ -423,7 +423,9 @@ svg {
     color: var(--off-color);
 }
 
-/* ### PROJECTS ### */
+/* ==========================================================================
+   Project Section
+   ========================================================================== */
 #projects-wrapper {
     display: inline-block;
     height: auto;
@@ -434,6 +436,8 @@ svg {
     background-color: var(--darker-background-color);
 }
 
+/* Gallery to hold each individual project on grid, centered on page, in rows of 3
+   ========================================================================== */
 #project-gallery {
     display: grid;
     grid-template-columns: 33% 33% 33%;
@@ -444,7 +448,7 @@ svg {
     justify-items: center;
 }
 
-/* Stacks screen elements when screen is less than 1200px */
+/* Stacks screen elements when screen is less than 1550px */
 @media only screen and (max-width: 1550px) {
     #project-gallery {
         display: block;
@@ -452,6 +456,7 @@ svg {
     }
 }
 
+/* Sets up each individual project */
 .project {
     position: relative;
     display: inline-block;
@@ -464,6 +469,7 @@ svg {
     outline-width: 3px;
 }
 
+/* a is used to link to corresponding Github page */
 .project a {
     position: absolute;
     left: 0;
@@ -472,6 +478,7 @@ svg {
     height: 100%;
 }
 
+/* Holds text & link over background img. Fades in on hover */
 .project-overlay {
     position: absolute;
     left: 0;
@@ -487,9 +494,19 @@ svg {
     backdrop-filter: blur(15px);
 }
 
+/* Styling for text and overlay content
+   ========================================================================== */
+/* Background img */
+.project img {
+    height: 300px;
+    width: 300px;
+}
+
+/* h2 = Header, p = description, span = tags */
 .project-overlay h2,
-.project-overlay p {
-    margin: 25px;
+.project-overlay p,
+.project-overlay span {
+    margin: 20px;
     padding: 10px;
     background-color: var(--div-background-color);
     border: solid 1px;
@@ -512,21 +529,6 @@ svg {
     padding: 5px;
     font-size: 13px;
     color: var(--lighter-accent);
-    background-color: var(--theme-color);
-    border: 1px solid;
-    outline-style: solid;
-    outline-color: var(--div-background-color);
-    outline-width: 5px;
-}
-
-.project-info {
-    background: transparent;
-    text-align: center;
-}
-
-.project img {
-    height: 300px;
-    width: 300px;
 }
 
 /* ### CONTACT ### */
