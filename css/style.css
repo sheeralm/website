@@ -521,7 +521,7 @@ svg {
 }
 
 .project-overlay p {
-    font-size: 18px;
+    padding: 2px;
     color: var(--opposite-theme-color);
 }
 
