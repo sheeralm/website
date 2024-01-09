@@ -184,6 +184,7 @@ svg {
     margin-top: 10vh;
     padding: 50px;
     filter: brightness(1.25);
+    -webkit-filter: brightness(1.25);
     background-color: var(--darker-background-color);
     border: 5px solid;
 }
@@ -496,9 +497,12 @@ svg {
     z-index: 1;
     opacity: 1;
     backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
     width: 500px;
     height: 500px;
     transition: 0.2s ease-in-out;
+    -webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
 }
 
 /* Stacks screen elements when screen is less than 1550px */
